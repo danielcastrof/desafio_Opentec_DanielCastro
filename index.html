@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="css/loginPage.css" />
+    <script src="https://kit.fontawesome.com/ecde323a7a.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/Login.js" defer></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a href="links" id="forcadastro"></a>
+        <a href="links" id="forsign"></a>
+
+        <div class="content">
+            <div id="login">
+            <h1 class="txtLogin"><u>Lo</u>gin</h1>
+            <form class="form">
+                <div class="lbsend">
+                    <label for="send"><i class="fas fa-envelope"></i></label>
+                </div>
+                <div class="lbslock">
+                <label for="lock"><i class="fas fa-lock"></i></label>
+                </div>
+                <input type="email" id="em" placeholder="Enter your email">
+                <input type="password" id="pas" placeholder="Enter your password">
+                <div class="forgot"> <a href="#" onclick="swal('Serviço indisponível no momento!');">Forgot password?</a></div>
+                <button class="btn" onclick="logar();">Submit</button>
+            </form>
+            <div class="signnow">Don't have an account? <a href="registerPage.html">Signup now</a></div>
+            </div>
+            <div class="image">
+                <div class="text">
+                    <div class="tittle">Every new friend is a<br>
+                    new adventure <br> 
+                    </div>
+                <div class="description">Let's get connected</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
